@@ -79,8 +79,8 @@
 								<li class="dropdown"><a href="#">Management<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="?page=Category_Management">Category </a></li>
-										<li><a href="?page=product_management">Product</a></li>
-                                        <li><a href="?page=Management_Shop">Store</a></li>
+										<li><a href="?page=Product_management">Product</a></li>
+                                       
                                       
                                     </ul>
                                     <?php
@@ -134,7 +134,7 @@
         {
             include_once("Category_Management.php");
         }
-        elseif($page=="product_management")
+        elseif($page=="Product_management")
         {
             include_once("Product_Management.php");
         }
